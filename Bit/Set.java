@@ -1,4 +1,4 @@
-package Bit;
+
 
 public class Set {
     public static int setIthBit(int n , int i){

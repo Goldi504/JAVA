@@ -1,18 +1,19 @@
 import java.util.*;
 public class function {
-//     public static int calculateSum(int a ,int b){
-// int sum=a+b;
-// return sum;
-//     }
-//     public static void main(String args[]){
-//         int a=5;
-//         int b=10;
-//         int temp=a;
-//         a=b;
-//         b=temp;
-//         System.out.println("a=" +a);
-//         System.out.println("b="+5 );
-//     }
+    public static int calculateSum(int a ,int b){
+int sum=a+b;
+return sum;
+    }
+    public static void main(String args[]){
+        int a=5;
+        int b=10;
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("a=" +a);
+        System.out.println("b="+5 );
+    }
+}
    
     
 // }

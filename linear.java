@@ -20,7 +20,7 @@ public class linear {
         //int number[] ={2,4,6,8,10,12,14,16};
         String menu[] ={"dosa" ,"samosa" ,"chhola" ,"pizza"};
          String key = "samosa";
-        int index =linearSearch(menu, key);
+        int index =linearSearch(menu, 6);
 
         //         int key =10;
         // int index =linearSearch(number, key);

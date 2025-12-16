@@ -199,232 +199,232 @@ case '%':System.out.println(a%b);
 }
     }
 }*/
-/* conditional stat problem 
-int a= sc.nextInt();
-if(a>=0){
-System.out.println("positive");
-}
-else{
-    System.out.println("negative");
-}
-    }
-}
-double temp=105.3;
-if(temp>100){
-    System.out.println("You havea fever");
-}
-else{
-    System.out.println(" Not You havea fever");
-    }
-    }
-    int week =sc.nextInt();
-    switch (week) {
-        case 1:System.out.println("Monday");
+ //conditional stat problem 
+// int a= sc.nextInt();
+// if(a>=0){
+// System.out.println("positive");
+// }
+// else{
+//     System.out.println("negative");
+// }
+//     }
+// }
+// double temp=105.3;
+// if(temp>100){
+//     System.out.println("You havea fever");
+// }
+// else{
+//     System.out.println(" Not You havea fever");
+//     }
+//     }
+//     int week =sc.nextInt();
+//     switch (week) {
+//         case 1:System.out.println("Monday");
     
-    case 2:System.out.println("Tuseday");
-    case 3:System.out.println("Wednesday");
-    case 4:System.out.println("Thrusday");
-    case 5:System.out.println("Friday");
-    case 6:System.out.println("Saturday");
-    case 7:System.out.println("Sunday");
-    break;
-            default:System.out.println("No days");
-            break;
-    }
-}
-}
- int a = 63, b = 36;
- boolean x = (a < b ) ? true : false;
- int y= (a > b ) ? a : b;
- System.out.println(x);
- System.out.println(y);
-    }
-}
-System.out.print("Input the year: ");
- int year = sc.nextInt();
- boolean x = (year % 4) == 0;
- boolean y = (year % 100) != 0;
- boolean z = ((year % 100 == 0) && (year % 400 == 0));
- if (x && (y || z)) {
- System.out.println(year + " is a leap year");
- } else {
- System.out.println(year + " is not a leap year");
- }
-}
-}
-//int range=sc.nextInt();
-int counter=0;
-//int n=range;
-while (counter<=100)
-{
-System.out.println(counter + " ");
-counter++;
+//     case 2:System.out.println("Tuseday");
+//     case 3:System.out.println("Wednesday");
+//     case 4:System.out.println("Thrusday");
+//     case 5:System.out.println("Friday");
+//     case 6:System.out.println("Saturday");
+//     case 7:System.out.println("Sunday");
+//     break;
+//             default:System.out.println("No days");
+//             break;
+//     }
+// }
+// }
+//  int a = 63, b = 36;
+//  boolean x = (a < b ) ? true : false;
+//  int y= (a > b ) ? a : b;
+//  System.out.println(x);
+//  System.out.println(y);
+//     }
+// }
+// System.out.print("Input the year: ");
+//  int year = sc.nextInt();
+//  boolean x = (year % 4) == 0;
+//  boolean y = (year % 100) != 0;
+//  boolean z = ((year % 100 == 0) && (year % 400 == 0));
+//  if (x && (y || z)) {
+//  System.out.println(year + " is a leap year");
+//  } else {
+//  System.out.println(year + " is not a leap year");
+//  }
+// }
+// }
+// //int range=sc.nextInt();
+// int counter=0;
+// //int n=range;
+// while (counter<=100)
+// {
+// System.out.println(counter + " ");
+// counter++;
     
-}
-    }
-}
+// }
+//     }
+// }
 
-for( int i=1; i<=4; i++){
-    System.out.println("****");
-}
-for( int j=1; j<=4; j++){
-    System.out.println("****");
-}
-    }
-}
+// for( int i=1; i<=4; i++){
+//     System.out.println("****");
+// }
+// for( int j=1; j<=4; j++){
+//     System.out.println("****");
+// }
+//     }
+// }
 
-//int n=sc.nextInt();
-int n=5;
-int sum=0;
-int i=1;
-while(i<=n){
-    sum+=i;
-    i++;
-}
-    }
-}
-int n=10;
-int i=1;
-int counter=1;
-do{
-    System.out.println("hello world");
-}
-while(counter<=n);
-    }
-}
-int n=10899;
-while(n>0){
-     int lastDigit=n%10;
-     System.out.print(lastDigit +" ");
-     n=n/10;
+// //int n=sc.nextInt();
+// int n=5;
+// int sum=0;
+// int i=1;
+// while(i<=n){
+//     sum+=i;
+//     i++;
+// }
+//     }
+// }
+// int n=10;
+// int i=1;
+// int counter=1;
+// do{
+//     System.out.println("hello world");
+// }
+// while(counter<=n);
+//     }
+// }
+// int n=10899;
+// while(n>0){
+//      int lastDigit=n%10;
+//      System.out.print(lastDigit +" ");
+//      n=n/10;
 
-}
-    }
-}
-for(int i=1; i<=5; i++)
-{
-    if(i==3){
-        continue;
-    }
-    System.out.println(i);
-}
-}
-}
-do{
-   System.out.println("enter the number");
-   int n=sc.nextInt();
-   if(n%10==0)
-   {
-    continue;
-   }
-    System.out.println("number was :" +n);
+// }
+//     }
+// }
+// for(int i=1; i<=5; i++)
+// {
+//     if(i==3){
+//         continue;
+//     }
+//     System.out.println(i);
+// }
+// }
+// }
+// do{
+//    System.out.println("enter the number");
+//    int n=sc.nextInt();
+//    if(n%10==0)
+//    {
+//     continue;
+//    }
+//     System.out.println("number was :" +n);
 
-   } while(true); 
+//    } while(true); 
     
    
-}
+// }
     
-}
+// }
 
- for(int i=0; i<5; i++) {
- System.out.println("Hello");
- i+=2;
- }
- }
-}
-int n=sc.nextInt();
-if(n%2==0){
-    System.out.println("even");
+//  for(int i=0; i<5; i++) {
+//  System.out.println("Hello");
+//  i+=2;
+//  }
+//  }
+// }
+// int n=sc.nextInt();
+// if(n%2==0){
+//     System.out.println("even");
 
-}
-else{
-    System.out.println("odd");
-}
-    }
-}
- for(int i=0; i<5; i++) {
- System.out.println("i = " +i);
- }
+// }
+// else{
+//     System.out.println("odd");
+// }
+//     }
+// }
+//  for(int i=0; i<5; i++) {
+//  System.out.println("i = " +i);
+//  }
  
- System.out.println("i after the loop = " + i);
-}
-}
-    }
-    int num;
-    int fact=1;
-    System.out.println("enter the positive integer ");
-    num=sc.nextInt();
-    for(int i=1; i<=num; i++)
-    {
-        fact *=i;
-    }
-    System.out.println("Factorial:" + fact);
-}
-}
- public static void printMultiplicationTable(int number){
- Scanner sc = new Scanner(System.in);
- System.out.print("Enter number:");
- int n = sc.nextInt();
- for(int i=1; i<=10; i++) {
- System.out.println(n + " * " + i + " = " + n*i);
- }
- }
- public static void main(String s[]) {
- printMultiplicationTable(5);
- }
-}
-int n=4;
-    for(int stat=1; stat<=4; stat++)
-    {
-        for(int line=1; line<=(n-stat+1); line++)
+//  System.out.println("i after the loop = " + i);
+// }
+// }
+//     }
+//     int num;
+//     int fact=1;
+//     System.out.println("enter the positive integer ");
+//     num=sc.nextInt();
+//     for(int i=1; i<=num; i++)
+//     {
+//         fact *=i;
+//     }
+//     System.out.println("Factorial:" + fact);
+// }
+// }
+//  public static void printMultiplicationTable(int number){
+//  Scanner sc = new Scanner(System.in);
+//  System.out.print("Enter number:");
+//  int n = sc.nextInt();
+//  for(int i=1; i<=10; i++) {
+//  System.out.println(n + " * " + i + " = " + n*i);
+//  }
+//  }
+//  public static void main(String s[]) {
+//  printMultiplicationTable(5);
+//  }
+// }
+// int n=4;
+//     for(int stat=1; stat<=4; stat++)
+//     {
+//         for(int line=1; line<=(n-stat+1); line++)
     
-    {
-        System.out.print("*");
+//     {
+//         System.out.print("*");
         
-    }
-    System.out.println( );
-}
+//     }
+//     System.out.println( );
+// }
 
-}
-}
-int n=5;
-for(int line=1; line<=n; line++)
-{
-    for(int number=1; number<=line; number++)
-    {
-        System.out.print(number);
-    }
-    System.out.println( );
-}
-    }
-    }
-int n=4;
-char ch='A';
-for(int line=1; line<=n; line++)
-{
-    for(int cha=1; cha<=line; cha++)
-    {
-       System.out.print(ch);
-       ch++;
-    }
-    System.out.println( );
-}
-    }
-}
-int n=5;
-char ch='a';
-for(int line=1; line<=n; line++)
-{
-    for(int cha=1; cha<=n-cha+1; cha++)
-    {
-        System.out.print(ch);
-        ch++;
-    }
-    System.out.println( );
-}
+// }
+// }
+// int n=5;
+// for(int line=1; line<=n; line++)
+// {
+//     for(int number=1; number<=line; number++)
+//     {
+//         System.out.print(number);
+//     }
+//     System.out.println( );
+// }
+//     }
+//     }
+// int n=4;
+// char ch='A';
+// for(int line=1; line<=n; line++)
+// {
+//     for(int cha=1; cha<=line; cha++)
+//     {
+//        System.out.print(ch);
+//        ch++;
+//     }
+//     System.out.println( );
+// }
+//     }
+// }
+// int n=5;
+// char ch='a';
+// for(int line=1; line<=n; line++)
+// {
+//     for(int cha=1; cha<=n-cha+1; cha++)
+//     {
+//         System.out.print(ch);
+//         ch++;
+//     }
+//     System.out.println( );
+// }
     }
 
-}*/
+ }
 
 
  
