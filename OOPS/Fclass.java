@@ -12,12 +12,15 @@ class Fclass {
 class Pen  {
     String color;
     int tip;
-
-    void setColor(String newColor){   // ✔ String argument
-        color = newColor;
+    String getCol(){
+        return this.color;
     }
 
-    void setTip(int newTip){
-        tip = newTip;
+    void setColor(String newColor){   // ✔ String argument
+        this.color = newColor;
+    }
+
+    void setTip(int Tip){
+        this.tip = Tip;
     }
 }
